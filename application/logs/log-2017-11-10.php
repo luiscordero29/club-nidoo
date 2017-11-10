@@ -207,3 +207,73 @@ INFO - 2017-11-10 15:02:41 --> Language file loaded: language/spanish/email_lang
 INFO - 2017-11-10 15:02:41 --> File loaded: /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/application/views/home/view_index.php
 INFO - 2017-11-10 15:02:41 --> Final output sent to browser
 DEBUG - 2017-11-10 15:02:41 --> Total execution time: 0.0353
+INFO - 2017-11-10 15:14:04 --> Config Class Initialized
+INFO - 2017-11-10 15:14:04 --> Hooks Class Initialized
+DEBUG - 2017-11-10 15:14:04 --> UTF-8 Support Enabled
+INFO - 2017-11-10 15:14:04 --> Utf8 Class Initialized
+INFO - 2017-11-10 15:14:04 --> URI Class Initialized
+INFO - 2017-11-10 15:14:04 --> Router Class Initialized
+INFO - 2017-11-10 15:14:04 --> Output Class Initialized
+INFO - 2017-11-10 15:14:04 --> Security Class Initialized
+DEBUG - 2017-11-10 15:14:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-11-10 15:14:04 --> Input Class Initialized
+INFO - 2017-11-10 15:14:04 --> Language Class Initialized
+INFO - 2017-11-10 15:14:04 --> Loader Class Initialized
+INFO - 2017-11-10 15:14:04 --> Helper loaded: form_helper
+INFO - 2017-11-10 15:14:04 --> Helper loaded: url_helper
+INFO - 2017-11-10 15:14:04 --> Helper loaded: email_helper
+INFO - 2017-11-10 15:14:04 --> Email Class Initialized
+INFO - 2017-11-10 15:14:04 --> Form Validation Class Initialized
+INFO - 2017-11-10 15:14:04 --> Controller Class Initialized
+INFO - 2017-11-10 15:14:04 --> Model Class Initialized
+INFO - 2017-11-10 15:14:04 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2017-11-10 15:14:10 --> Language file loaded: language/spanish/email_lang.php
+INFO - 2017-11-10 15:14:10 --> File loaded: /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/application/views/home/view_index.php
+INFO - 2017-11-10 15:14:10 --> Final output sent to browser
+DEBUG - 2017-11-10 15:14:10 --> Total execution time: 5.9592
+ERROR - 2017-11-10 15:14:10 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:11 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:11 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:11 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:11 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:12 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:12 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:12 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:12 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:13 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:13 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:13 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:13 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:14 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:14 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:14 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:14 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:15 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:15 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:15 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:15 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+ERROR - 2017-11-10 15:14:16 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=32 Broken pipe /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/system/libraries/Email.php 2242
+INFO - 2017-11-10 15:18:07 --> Config Class Initialized
+INFO - 2017-11-10 15:18:07 --> Hooks Class Initialized
+DEBUG - 2017-11-10 15:18:07 --> UTF-8 Support Enabled
+INFO - 2017-11-10 15:18:07 --> Utf8 Class Initialized
+INFO - 2017-11-10 15:18:07 --> URI Class Initialized
+INFO - 2017-11-10 15:18:07 --> Router Class Initialized
+INFO - 2017-11-10 15:18:07 --> Output Class Initialized
+INFO - 2017-11-10 15:18:07 --> Security Class Initialized
+DEBUG - 2017-11-10 15:18:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-11-10 15:18:07 --> Input Class Initialized
+INFO - 2017-11-10 15:18:07 --> Language Class Initialized
+INFO - 2017-11-10 15:18:07 --> Loader Class Initialized
+INFO - 2017-11-10 15:18:07 --> Helper loaded: form_helper
+INFO - 2017-11-10 15:18:07 --> Helper loaded: url_helper
+INFO - 2017-11-10 15:18:07 --> Helper loaded: email_helper
+INFO - 2017-11-10 15:18:07 --> Email Class Initialized
+INFO - 2017-11-10 15:18:07 --> Form Validation Class Initialized
+INFO - 2017-11-10 15:18:07 --> Controller Class Initialized
+INFO - 2017-11-10 15:18:07 --> Model Class Initialized
+INFO - 2017-11-10 15:18:07 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2017-11-10 15:18:08 --> Language file loaded: language/spanish/email_lang.php
+INFO - 2017-11-10 15:18:11 --> File loaded: /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/application/views/home/view_index.php
+INFO - 2017-11-10 15:18:11 --> Final output sent to browser
+DEBUG - 2017-11-10 15:18:11 --> Total execution time: 4.4775
