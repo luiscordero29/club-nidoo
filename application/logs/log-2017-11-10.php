@@ -139,3 +139,71 @@ INFO - 2017-11-10 14:44:01 --> Language file loaded: language/spanish/form_valid
 INFO - 2017-11-10 14:44:01 --> File loaded: /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/application/views/home/view_index.php
 INFO - 2017-11-10 14:44:01 --> Final output sent to browser
 DEBUG - 2017-11-10 14:44:01 --> Total execution time: 0.0248
+INFO - 2017-11-10 14:52:23 --> Config Class Initialized
+INFO - 2017-11-10 14:52:23 --> Hooks Class Initialized
+DEBUG - 2017-11-10 14:52:23 --> UTF-8 Support Enabled
+INFO - 2017-11-10 14:52:23 --> Utf8 Class Initialized
+INFO - 2017-11-10 14:52:23 --> URI Class Initialized
+INFO - 2017-11-10 14:52:23 --> Router Class Initialized
+INFO - 2017-11-10 14:52:23 --> Output Class Initialized
+INFO - 2017-11-10 14:52:23 --> Security Class Initialized
+DEBUG - 2017-11-10 14:52:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-11-10 14:52:23 --> Input Class Initialized
+INFO - 2017-11-10 14:52:23 --> Language Class Initialized
+INFO - 2017-11-10 14:52:23 --> Loader Class Initialized
+INFO - 2017-11-10 14:52:23 --> Helper loaded: form_helper
+INFO - 2017-11-10 14:52:23 --> Helper loaded: url_helper
+INFO - 2017-11-10 14:52:23 --> Helper loaded: email_helper
+INFO - 2017-11-10 14:52:23 --> Email Class Initialized
+INFO - 2017-11-10 14:52:23 --> Form Validation Class Initialized
+INFO - 2017-11-10 14:52:23 --> Controller Class Initialized
+INFO - 2017-11-10 14:52:23 --> Model Class Initialized
+INFO - 2017-11-10 14:52:23 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2017-11-10 14:52:23 --> File loaded: /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/application/views/home/view_index.php
+INFO - 2017-11-10 14:52:23 --> Final output sent to browser
+DEBUG - 2017-11-10 14:52:23 --> Total execution time: 0.0091
+INFO - 2017-11-10 15:02:25 --> Config Class Initialized
+INFO - 2017-11-10 15:02:25 --> Hooks Class Initialized
+DEBUG - 2017-11-10 15:02:25 --> UTF-8 Support Enabled
+INFO - 2017-11-10 15:02:25 --> Utf8 Class Initialized
+INFO - 2017-11-10 15:02:25 --> URI Class Initialized
+INFO - 2017-11-10 15:02:25 --> Router Class Initialized
+INFO - 2017-11-10 15:02:25 --> Output Class Initialized
+INFO - 2017-11-10 15:02:25 --> Security Class Initialized
+DEBUG - 2017-11-10 15:02:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-11-10 15:02:25 --> Input Class Initialized
+INFO - 2017-11-10 15:02:25 --> Language Class Initialized
+INFO - 2017-11-10 15:02:25 --> Loader Class Initialized
+INFO - 2017-11-10 15:02:25 --> Helper loaded: form_helper
+INFO - 2017-11-10 15:02:25 --> Helper loaded: url_helper
+INFO - 2017-11-10 15:02:25 --> Helper loaded: email_helper
+INFO - 2017-11-10 15:02:25 --> Email Class Initialized
+INFO - 2017-11-10 15:02:25 --> Form Validation Class Initialized
+INFO - 2017-11-10 15:02:25 --> Controller Class Initialized
+INFO - 2017-11-10 15:02:25 --> Model Class Initialized
+INFO - 2017-11-10 15:02:25 --> Language file loaded: language/spanish/form_validation_lang.php
+ERROR - 2017-11-10 15:02:25 --> Severity: error --> Exception: Call to undefined method Home_model::send_mail() /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/application/controllers/Home.php 34
+INFO - 2017-11-10 15:02:41 --> Config Class Initialized
+INFO - 2017-11-10 15:02:41 --> Hooks Class Initialized
+DEBUG - 2017-11-10 15:02:41 --> UTF-8 Support Enabled
+INFO - 2017-11-10 15:02:41 --> Utf8 Class Initialized
+INFO - 2017-11-10 15:02:41 --> URI Class Initialized
+INFO - 2017-11-10 15:02:41 --> Router Class Initialized
+INFO - 2017-11-10 15:02:41 --> Output Class Initialized
+INFO - 2017-11-10 15:02:41 --> Security Class Initialized
+DEBUG - 2017-11-10 15:02:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2017-11-10 15:02:41 --> Input Class Initialized
+INFO - 2017-11-10 15:02:41 --> Language Class Initialized
+INFO - 2017-11-10 15:02:41 --> Loader Class Initialized
+INFO - 2017-11-10 15:02:41 --> Helper loaded: form_helper
+INFO - 2017-11-10 15:02:41 --> Helper loaded: url_helper
+INFO - 2017-11-10 15:02:41 --> Helper loaded: email_helper
+INFO - 2017-11-10 15:02:41 --> Email Class Initialized
+INFO - 2017-11-10 15:02:41 --> Form Validation Class Initialized
+INFO - 2017-11-10 15:02:41 --> Controller Class Initialized
+INFO - 2017-11-10 15:02:41 --> Model Class Initialized
+INFO - 2017-11-10 15:02:41 --> Language file loaded: language/spanish/form_validation_lang.php
+INFO - 2017-11-10 15:02:41 --> Language file loaded: language/spanish/email_lang.php
+INFO - 2017-11-10 15:02:41 --> File loaded: /home/luiscordero29/Projects/nidoo/Club_NIDOO/club_nidoo/application/views/home/view_index.php
+INFO - 2017-11-10 15:02:41 --> Final output sent to browser
+DEBUG - 2017-11-10 15:02:41 --> Total execution time: 0.0353

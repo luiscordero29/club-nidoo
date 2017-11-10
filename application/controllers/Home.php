@@ -31,8 +31,8 @@ class Home extends CI_Controller {
 		if ($this->form_validation->run() == FALSE){
 			$this->load->view('home/view_index');
         }else{
-        	$this->home_model->mail_send();
-			$this->load->view('home/view_index_mail_send');
+        	$data = $this->home_model->send_mail();
+			$this->load->view('home/view_index', $data);
         }
 	}
 }
