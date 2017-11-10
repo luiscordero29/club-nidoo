@@ -10,8 +10,14 @@
 @font-face {
   font-family: 'Tamil-MN';
   src: url("fonts/Tamil-MN.ttc"); }
+body {
+  font-family: 'Roboto-Regular', sans-serif;
+  color: #575756;
+  font-size: 16px;
+  padding: 0 !important; }
+
 #header-mobile .bg-light {
-  background-color: #84388c !important; }
+  background-color: #733b89 !important; }
 
 #header-mobile .navbar-light .navbar-brand {
   color: #fff; }
@@ -27,7 +33,7 @@
   font-family: 'Roboto-Light'; }
 
 #header-top a {
-  color: #84388c;
+  color: #733b89;
   font-family: 'Roboto-Medium';
   font-size: 14px; }
 
@@ -36,7 +42,7 @@
   padding: 10px 5px; }
 
 #header {
-  background: #84388c;
+  background: #733b89;
   padding-top: 30px;
   padding-bottom: 30px; }
 
@@ -70,7 +76,7 @@
   background: #f8f7f7; }
 
 #section-gits .text-title {
-  color: #84388c;
+  color: #733b89;
   font-family: 'Roboto-Regular'; }
 
 #section-gits .text-description {
@@ -83,7 +89,7 @@
   padding-bottom: 100px; }
 
 #section-classified .text-title {
-  color: #84388c;
+  color: #733b89;
   font-family: 'Roboto-Regular';
   padding-bottom: 30px; }
 
@@ -94,7 +100,7 @@
   width: 30px; }
 
 #section-establishments .text-title {
-  color: #84388c;
+  color: #733b89;
   font-family: 'Roboto-Regular';
   padding-bottom: 60px; }
 
@@ -158,18 +164,18 @@
 
 #form-club-nidoo .btn-primary {
   color: #fff;
-  background-color: #84388c;
-  border-color: #84388c;
+  background-color: #733b89;
+  border-color: #733b89;
   cursor: pointer; }
 
 #form-club-nidoo .btn-primary:hover {
   color: #fff;
-  background-color: #f08232;
-  border-color: #f08232;
+  background-color: #d7803a;
+  border-color: #d7803a;
   cursor: pointer; }
 
 #footer {
-  background: #f08232;
+  background: #d7803a;
   margin-top: 60px;
   padding-top: 40px; }
 
@@ -178,7 +184,7 @@
   padding: 0px 0px; }
 
 #footer .fa-inverse {
-  color: #f08232; }
+  color: #d7803a; }
 
 #footer a.nav-link {
   color: #fff; }

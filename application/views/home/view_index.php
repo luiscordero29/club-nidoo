@@ -284,7 +284,7 @@
                         ?>
                         <form class="form-inline">                                
                             <div class="form-group">
-                                <input name="email" type="text" class="form-control" id="email" placeholder="Email">
+                                <input name="email" type="text" class="form-control" id="email" placeholder="Email" value="<?php echo set_value('email'); ?>">
                             </div>
                             <button type="submit" class="btn btn-primary">ENVIAR</button>
                         <?php echo form_close(); ?>

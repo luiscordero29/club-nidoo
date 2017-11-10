@@ -16,7 +16,7 @@
 	background: #f8f7f7;
 }
 #section-gits .text-title {
-	color: #84388c;
+	color: $nidoo-color-morado;
 	font-family:'Roboto-Regular';
 }
 #section-gits .text-description {
@@ -29,7 +29,7 @@
 	padding-bottom: 100px;
 }
 #section-classified .text-title {
-	color: #84388c;
+	color: $nidoo-color-morado;
 	font-family:'Roboto-Regular';
 	padding-bottom: 30px;
 }
@@ -40,7 +40,7 @@
 	width: 30px;
 }
 #section-establishments .text-title {
-	color: #84388c;
+	color: $nidoo-color-morado;
 	font-family:'Roboto-Regular';
 	padding-bottom: 60px;
 }
@@ -104,13 +104,13 @@
 }
 #form-club-nidoo .btn-primary {
 	color: #fff;
-	background-color: #84388c;
-	border-color: #84388c;
+	background-color: $nidoo-color-morado;
+	border-color: $nidoo-color-morado;
 	cursor: pointer;
 }
 #form-club-nidoo .btn-primary:hover {
 	color: #fff;
-	background-color: #f08232;
-	border-color: #f08232;
+	background-color: $nidoo-color-naranja;
+	border-color: $nidoo-color-naranja;
 	cursor: pointer;
 }

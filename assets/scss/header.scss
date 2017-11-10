@@ -1,5 +1,5 @@
 #header-mobile .bg-light {
-	background-color: #84388c !important;
+	background-color: $nidoo-color-morado !important;
 }
 #header-mobile .navbar-light .navbar-brand {
 	color: #fff;
@@ -15,7 +15,7 @@
 	font-family:'Roboto-Light';
 }
 #header-top a {
-	color: #84388c;
+	color: $nidoo-color-morado;
 	font-family:'Roboto-Medium';
 	font-size: 14px;
 }
@@ -24,7 +24,7 @@
 	padding: 10px 5px;
 }
 #header {
-	background: #84388c;
+	background: $nidoo-color-morado;
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
