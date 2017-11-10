@@ -1,0 +1,52 @@
+@media (max-width: 575px) {	
+	#header .nav {
+		display: none;
+	}
+	#section-banner .text-content {
+		font-size: 16px;
+		font-family:'Roboto-Regular';
+		color: #575756;
+	}
+	#section-gits .text-description {
+		color: #5a5a59;
+		font-family:'Roboto-Regular';
+		font-size: 16px;
+	}
+	#section-classified .text-content {
+		font-size: 16px;
+	}
+	#form-club-nidoo .parlante {
+		display: none;
+	}
+	#form-club-nidoo .content {
+		padding-top: 40px;
+		padding-left: 0px;
+		padding-bottom: 80px;
+	}
+}
+@media (max-width: 768px) { 
+	#header .nav {
+		display: none;
+	}
+	#form-club-nidoo .parlante {
+		display: none;
+	}
+	#form-club-nidoo .content {
+		padding-top: 40px;
+		padding-left: 0px;
+		padding-bottom: 80px;
+	}
+}
+@media (max-width: 992px) { 
+	#header a.nav-link {
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 14px;
+		font-family:'Roboto-Medium';
+	}
+}
+@media (min-width: 768px) { 
+	#header-mobile  {
+		display: none;
+	}
+}
