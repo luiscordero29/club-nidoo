@@ -209,6 +209,7 @@
             </div>
         </div>
     </div>
+    <?php /* ?>
     <div id="section-establishments">
         <div class="container">        
             <div class="row">
@@ -243,6 +244,7 @@
             </div>
         </div>
     </div>
+    */ ?>
     <div id="form-club-nidoo">
         <div class="container">        
             <div class="row">
