@@ -38,7 +38,7 @@
             </div>
         </nav>
     </div>
-    <div id="header-top">                    
+    <div id="header-top">
         <div class="container">
             <div class="row">
                 <div class="col-sm">
@@ -54,7 +54,7 @@
             </div>
         </div>
     </div>
-    <div id="header">  
+    <div id="header">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 col-lg-3">
@@ -82,27 +82,27 @@
         </div>
     </div>
     <div id="section-banner">
-        <div class="container">        
+        <div class="container">
             <div class="row">
-                <div class="col-sm">
-                    <p class="text-center text-image">
-                        <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/club-nidoo.png" alt="Club Nidoo">
-                    </p>
-                    <p class="text-center text-content">
-                        Creamos un programa para nuestros mejores clientes 
-                        con beneficios para personas que demuestren ser 
-                        usuarios ejemplares en nuestra plataforma.
-                    </p>
+                <div class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-10 offset-sm-1 col-12 offset-0">
+                  <p class="text-center text-image">
+                      <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/club-nidoo.png" alt="Club Nidoo">
+                  </p>
+                  <p class="text-center text-content">
+                      Creamos un programa para nuestros mejores clientes
+                      con beneficios para personas que demuestren ser
+                      usuarios ejemplares en nuestra plataforma.
+                  </p>
                 </div>
             </div>
         </div>
     </div>
     <div id="section-gits">
-        <div class="container">        
+        <div class="container">
             <div class="row">
                 <div class="col-sm">
                     <h2 class="text-center text-title">
-                        Beneficios del CLub NIDOO
+                        Beneficios del Club NIDOO
                     </h2>
                 </div>
             </div>
@@ -143,7 +143,7 @@
         </div>
     </div>
     <div id="section-classified">
-        <div class="container">        
+        <div class="container">
             <div class="row">
                 <div class="col-sm">
                     <h2 class="text-center text-title">
@@ -183,7 +183,7 @@
                                 <th scope="row" valign="top" class="square">
                                     <i class="fa fa-square-o" aria-hidden="true"></i>
                                 </th>
-                                <td>Usuarios: debes pagar a tiempo y cumplir con las reglas estipulada por cada parqueadero (horario, estacionar bien el espacio asignado, solo ingresa persona y carro autorizado)</td>
+                                <td>Usuarios: debes pagar a tiempo y cumplir con las reglas estipulada de cada parqueadero (horario, estacionar bien el espacio asignado, solo ingresa persona y carro autorizado)</td>
                             </tr>
                             <tr>
                                 <th scope="row" valign="top" class="square">
@@ -195,13 +195,13 @@
                                 <th scope="row" valign="top" class="square">
                                     <i class="fa fa-square-o" aria-hidden="true"></i>
                                 </th>
-                                <td>No deben hacer comentarios negativos por parte de un Oferente o Usuario hacia ti</td>
+                                <td>No deben haber comentarios negativos por parte de un Oferente o Usuario hacia ti</td>
                             </tr>
                             <tr>
                                 <th scope="row" valign="top" class="square">
                                     <i class="fa fa-square-o" aria-hidden="true"></i>
                                 </th>
-                                <td>Si incumples cualquiera de las anteriores después de los 3 meses puesde perder tu estatus de Club NIDOO</td>
+                                <td>Si incumples cualquiera de las anteriores después de los 3 meses puede perder tu estatus de Club NIDOO</td>
                             </tr>
                         </tbody>
                     </table>
@@ -211,7 +211,7 @@
     </div>
     <?php /* ?>
     <div id="section-establishments">
-        <div class="container">        
+        <div class="container">
             <div class="row">
                 <div class="col-sm">
                     <h2 class="text-center text-title">
@@ -224,21 +224,21 @@
                     <div class="text-center establishment">
                         <a href="#establecimiento">
                             <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/establecimiento.png">
-                        </a>                        
+                        </a>
                     </div>
                 </div>
                 <div class="col-12 col-xs-12 col-md-6 col-lg-4">
                     <div class="text-center establishment">
                         <a href="#establecimiento">
                             <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/establecimiento.png">
-                        </a>                        
+                        </a>
                     </div>
                 </div>
                 <div class="col-12 col-xs-12 col-md-6 col-lg-4">
                     <div class="text-center establishment">
                         <a href="#establecimiento">
                             <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/establecimiento.png">
-                        </a>                        
+                        </a>
                     </div>
                 </div>
             </div>
@@ -246,7 +246,7 @@
     </div>
     */ ?>
     <div id="form-club-nidoo">
-        <div class="container">        
+        <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                     <div class="parlante">
@@ -255,36 +255,36 @@
                 </div>
                 <div class="col-12 col-sm-12 col-md-8 col-lg-9">
                     <div class="content">
-                        <?php echo validation_errors('<div class="alert alert-danger">','</div>'); ?> 
+                        <?php echo validation_errors('<div class="alert alert-danger">','</div>'); ?>
                         <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
                             if (!empty($alert['success'])) {
-                                foreach ($alert['success'] as $key => $value) {                           
+                                foreach ($alert['success'] as $key => $value) {
                                     echo '<div class="alert alert-success">'.$value.'</div>';
                                 }
                             }
                             if (!empty($alert['info'])) {
-                                foreach ($alert['info'] as $key => $value) {                           
+                                foreach ($alert['info'] as $key => $value) {
                                     echo '<div class="alert alert-info">'.$value.'</div>';
                                 }
-                            } 
+                            }
                             if (!empty($alert['warning'])) {
-                                foreach ($alert['warning'] as $key => $value) {                           
+                                foreach ($alert['warning'] as $key => $value) {
                                     echo '<div class="alert alert-warning">'.$value.'</div>';
                                 }
-                            } 
+                            }
                             if (!empty($alert['danger'])) {
-                                foreach ($alert['danger'] as $key => $value) {                           
+                                foreach ($alert['danger'] as $key => $value) {
                                     echo '<div class="alert alert-danger">'.$value.'</div>';
                                 }
-                            } 
-                        ?>                      
+                            }
+                        ?>
                         <h3>¿Quieres ser parte del Club NIDOO?</h3>
                         <h5>Registrate!</h5>
-                        <?php 
+                        <?php
                           $at = array('class' => 'form-inline' );
-                          echo form_open('sendmail#form-club-nidoo',$at); 
+                          echo form_open('sendmail#form-club-nidoo',$at);
                         ?>
-                        <form class="form-inline">                                
+                        <form class="form-inline">
                             <div class="form-group">
                                 <input name="email" type="text" class="form-control" id="email" placeholder="Email" value="<?php echo set_value('email'); ?>">
                             </div>
@@ -296,7 +296,7 @@
         </div>
     </div>
     <div id="footer">
-        <div class="container">        
+        <div class="container">
             <div class="row">
                 <div class="col-sm-3">
                     <a href="http://nidoo.com.co/">
