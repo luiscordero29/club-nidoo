@@ -1,4 +1,3 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,11 +6,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Style -->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/style.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <div id="header-mobile">
@@ -59,7 +58,7 @@
             <div class="row">
                 <div class="col-md-4 col-lg-3">
                     <a href="http://nidoo.com.co/">
-                        <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/logo.svg" alt="Nidoo">
+                        <img class="img-responsive" src="assets/images/logo.svg" alt="Nidoo">
                     </a>
                 </div>
                 <div class="col-md-8 col-lg-9">
@@ -86,7 +85,7 @@
             <div class="row">
                 <div class="col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-10 offset-sm-1 col-12 offset-0">
                   <p class="text-center text-image">
-                      <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/club-nidoo.png" alt="Club Nidoo">
+                      <img class="img-responsive" src="assets/images/club-nidoo.png" alt="Club Nidoo">
                   </p>
                   <p class="text-center text-content">
                       Creamos un programa para nuestros mejores clientes
@@ -109,7 +108,7 @@
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-3 col-lg-3">
                     <p class="text-center">
-                        <img src="<?php echo base_url(); ?>assets/images/beneficios-1.png">
+                        <img src="assets/images/beneficios-1.png">
                     </p>
                     <p class="text-center text-description">
                         Descuentos en todos los establecimientos con los que tenemos convenios.
@@ -117,7 +116,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-3 col-lg-3">
                     <p class="text-center">
-                        <img src="<?php echo base_url(); ?>assets/images/beneficios-2.png">
+                        <img src="assets/images/beneficios-2.png">
                     </p>
                     <p class="text-center text-description">
                         Promociones y ofertas especiales solo validas para miembros del club.
@@ -125,7 +124,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-3 col-lg-3">
                     <p class="text-center">
-                        <img src="<?php echo base_url(); ?>assets/images/beneficios-3.png">
+                        <img src="assets/images/beneficios-3.png">
                     </p>
                     <p class="text-center text-description">
                         Si ofreces tu parqueadero en NIDOO, te consignamos los primeros 10 días de una reserva.
@@ -133,7 +132,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-md-3 col-lg-3">
                     <p class="text-center">
-                        <img src="<?php echo base_url(); ?>assets/images/beneficios-4.png">
+                        <img src="assets/images/beneficios-4.png">
                     </p>
                     <p class="text-center text-description">
                         Recibes prioridad durante el proceso de una reserva.
@@ -209,7 +208,6 @@
             </div>
         </div>
     </div>
-    <?php /* ?>
     <div id="section-establishments">
         <div class="container">
             <div class="row">
@@ -223,73 +221,45 @@
                 <div class="col-12 col-xs-12 col-md-6 col-lg-4">
                     <div class="text-center establishment">
                         <a href="#establecimiento">
-                            <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/establecimiento.png">
+                            <img class="img-responsive" src="assets/images/establecimiento.png">
                         </a>
                     </div>
                 </div>
                 <div class="col-12 col-xs-12 col-md-6 col-lg-4">
                     <div class="text-center establishment">
                         <a href="#establecimiento">
-                            <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/establecimiento.png">
+                            <img class="img-responsive" src="assets/images/establecimiento.png">
                         </a>
                     </div>
                 </div>
                 <div class="col-12 col-xs-12 col-md-6 col-lg-4">
                     <div class="text-center establishment">
                         <a href="#establecimiento">
-                            <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/establecimiento.png">
+                            <img class="img-responsive" src="assets/images/establecimiento.png">
                         </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    */ ?>
     <div id="form-club-nidoo">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-12 col-md-4 col-lg-3">
                     <div class="parlante">
-                        <img  class="img-responsive" src="<?php echo base_url(); ?>assets/images/parlante.png">
+                        <img  class="img-responsive" src="assets/images/parlante.png">
                     </div>
                 </div>
                 <div class="col-12 col-sm-12 col-md-8 col-lg-9">
                     <div class="content">
-                        <?php echo validation_errors('<div class="alert alert-danger">','</div>'); ?>
-                        <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-                            if (!empty($alert['success'])) {
-                                foreach ($alert['success'] as $key => $value) {
-                                    echo '<div class="alert alert-success">'.$value.'</div>';
-                                }
-                            }
-                            if (!empty($alert['info'])) {
-                                foreach ($alert['info'] as $key => $value) {
-                                    echo '<div class="alert alert-info">'.$value.'</div>';
-                                }
-                            }
-                            if (!empty($alert['warning'])) {
-                                foreach ($alert['warning'] as $key => $value) {
-                                    echo '<div class="alert alert-warning">'.$value.'</div>';
-                                }
-                            }
-                            if (!empty($alert['danger'])) {
-                                foreach ($alert['danger'] as $key => $value) {
-                                    echo '<div class="alert alert-danger">'.$value.'</div>';
-                                }
-                            }
-                        ?>
                         <h3>¿Quieres ser parte del Club NIDOO?</h3>
                         <h5>Registrate!</h5>
-                        <?php
-                          $at = array('class' => 'form-inline' );
-                          echo form_open('sendmail#form-club-nidoo',$at);
-                        ?>
                         <form class="form-inline">
                             <div class="form-group">
-                                <input name="email" type="text" class="form-control" id="email" placeholder="Email" value="<?php echo set_value('email'); ?>">
+                                <input name="email" type="text" class="form-control" id="email" placeholder="Email" value="">
                             </div>
                             <button type="submit" class="btn btn-primary">ENVIAR</button>
-                        <?php echo form_close(); ?>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -300,7 +270,7 @@
             <div class="row">
                 <div class="col-sm-3">
                     <a href="http://nidoo.com.co/">
-                        <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/logo-white.png" alt="Nidoo">
+                        <img class="img-responsive" src="assets/images/logo-white.png" alt="Nidoo">
                     </a>
                 </div>
                 <div class="col-sm">
@@ -345,8 +315,8 @@
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="<?php echo base_url(); ?>assets/jquery-3.2.1.slim.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/popper.js/1.12.3/popper.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="assets/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/popper.js/1.12.3/popper.min.js"></script>
+    <script src="assets/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 </body>
 </html>
